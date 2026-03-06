@@ -1,0 +1,11 @@
+name: Anime AV1 Tier 2
+pattern: "(?i)(?:^\\[|(?<=-)|(?<=\\[))(?:MiniVodes|Alici\xE4|Breeze|5fish|Altair)(?:\\\
+  ]|\\b|$)"
+description: https://discord.com/channels/992019264959676448/1354519513667997766/1409491900137865288
+tags:
+- Anime
+- Release Group
+tests:
+- id: 1
+  input: '[Breeze] JUJUTSU KAISEN S03E05 [1080p AV1][Dual Audio] (weekly)'
+  expected: true

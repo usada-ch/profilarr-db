@@ -1,0 +1,11 @@
+name: Anime AV1 Tier 1
+pattern: (?i)(?:^\[|(?<=-)|(?<=\[))(?:ItachiUchiha|Copernicus)(?:\]|\b|$)
+description: https://discord.com/channels/992019264959676448/1354519513667997766/1409491900137865288
+tags:
+- Anime
+- Release Group
+tests:
+- id: 1
+  input: '[ItachiUchiha] Vivy: Fluorite Eye''s Song S01 (Season 1) [BD 1080p][AV1
+    Opus][Dual Audio][Audio JPN-ENG][Multi-Subs][ITA][ENG][SPA-LA][POR-BR][FRE][GER][AR]'
+  expected: true
